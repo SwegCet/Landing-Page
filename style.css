@@ -15,7 +15,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 12px;
-    margin-top: 0;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .header-logo{
@@ -109,7 +110,13 @@ a{
 }
 
 .card{
+   display: flex;
+   flex-direction: column;
+}
+
+.card-box{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 8px;
@@ -120,10 +127,9 @@ a{
     border-radius: 8px;
     text-align: center;
     border-color: #3882F6;
-
 }
 
-.sub-text{
+/*.sub-text{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,20 +137,37 @@ a{
     width: 150px;
     gap: 100px;
     text-align: center;
-}
+}*/
 
 h4 {
     word-wrap: break-word;
+    width: 172px;
+    text-align: center;
 }
 
-.quote{
-    background-color: #E5E7EB;
+.quote-section {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #E5E7EB;
+    height: 300px;
 }
-.text{
+.quote{
+    width: 800px;
+}
+
+.quote > em{
+    word-wrap: break-word;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote > p {
+    text-align: right;
+}
+
+/*.text{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,13 +178,14 @@ h4 {
     width: 800px;
     margin: 0%;
 }
-/* WORK ON THE QUOTED PART*/
+
 .quoted-by{
     display: block;
     text-align: right;
-   margin: 1em;
+    align-self: right;
+    margin: 1em;
     font-weight: bold;
-}
+}*/
 
 .bottom{
     display: flex;
