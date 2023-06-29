@@ -129,16 +129,6 @@ a{
     border-color: #3882F6;
 }
 
-/*.sub-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    width: 150px;
-    gap: 100px;
-    text-align: center;
-}*/
-
 h4 {
     word-wrap: break-word;
     width: 172px;
@@ -166,26 +156,6 @@ h4 {
 .quote > p {
     text-align: right;
 }
-
-/*.text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    word-wrap: break-word;
-    font-size: 36px;
-    color: #1F2937;
-    height: 300px;
-    width: 800px;
-    margin: 0%;
-}
-
-.quoted-by{
-    display: block;
-    text-align: right;
-    align-self: right;
-    margin: 1em;
-    font-weight: bold;
-}*/
 
 .bottom{
     display: flex;
@@ -227,7 +197,6 @@ h4 {
     font-weight: bold;
     font-size: 14px;
 }
-
 
 .footer{
     padding: 8px;
